@@ -1,14 +1,16 @@
 # PlexTrac 2021 Summer Internship Challenge
 
-This summer PlexTrac is looking to bring an intern on to do some work importing and mutating data in our platform.  This will involve converting multiple disparate formats into the same underlying data structure in an effort to normalize various external formats into our platform.
+This summer PlexTrac is looking to bring an intern on to do some work importing and mutating data in our platform.  You'll be taking multiple disparate formats as input and will be transforming them into the same underlying data structure to normalize various external formats into our platform.
 
 ### The task at hand...
 
-Your mission, should you choose to accept, is to write a couple of Python scripts to parse a couple of different formats and transform them into the same data structure for output.  
+Your mission, should you choose to accept, is to write a couple of Python scripts to parse data from multiple formats and transform them into the same data structure for further processing.  
 
-Please consult the files while writing your parsers:
-- data.xml (input)
-- data.csv (input)
+Please consult the files for your inputs:
+- data.xml 
+- data.csv 
+
+Both should be output as JSON, consult the following for the format:
 - sample_output.json
 
 Minimum Viable Product (MVP):
