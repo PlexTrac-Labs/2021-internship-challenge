@@ -6,19 +6,12 @@ This summer PlexTrac is looking to bring an intern on to do some work importing 
 
 Your mission, should you choose to accept, is to write a couple of Python scripts to parse data from multiple formats and transform them into the same data structure for further processing.  
 
-Please consult the files for your inputs:
-- data.xml 
-- data.csv 
-
-Both should be output as JSON, consult the following for the format:
-- sample_output.json
-
 Minimum Viable Product (MVP):
-- Convert XML to JSON
-- Convert CSV to JSON
+- Convert the XML in data.xml into the JSON format in sample_output.json and save as xml_output.json
+- Convert the CSV data from data.csv into the JSON format in sample_output.json and save as csv_output.json
 
 Extra Credit:
-- De-duplication of entries
+- De-duplication of entries - group items from different hostnames but matching name/severity together
 - Write unit tests that validate each parser is functioning correctly and outputs the proper format
 
 To get started, fork this repository and add the following items:
