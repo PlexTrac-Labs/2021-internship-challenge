@@ -18,7 +18,7 @@ Your mission, should you choose to accept, is to write a couple of Python script
 
 Fork this repository and add the following items:
 
-- parser-xml.py -- this should include the code to read and parse data.xml then save a JSON file using the structure from sample_output.json
-- parser-csv.py -- this should include the code to read and parse data.csv then save a JSON file using the structure from sample_output.json
+- parser-xml.py -- this should include the code for reading/parsing data.xml and saving xml_output.json
+- parser-csv.py -- this should include the code for reading/parsing data.csv and saving csv_output.json
 
 The rest is up to you.
