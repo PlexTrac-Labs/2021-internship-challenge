@@ -1,0 +1,55 @@
+{
+    "items": [{
+        "name": "vulnerability 001",
+        "severity": "High",
+        "category": "SSH Server Vulnerability",
+        "description": "The vulnerability was detected in the remote SSH server",
+        "recommendation": "Apply security update 2021-04-01 to all affected systems.",
+        "discovered_on": "2021-04-01",
+        "last_seen": "2021-04-02",
+        "hostname": "10.10.10.10"
+    }, {
+        "name": "vulnerability 002",
+        "severity": "Critical",
+        "category": "Remote code execution",
+        "description": "Remote code execution vulnerabilities were discovered in software running on the server",
+        "recommendation": "Upgrade the affected applications to their latest version to resolve the issue.",
+        "discovered_on": "2021-04-01",
+        "last_seen": "2021-04-02",
+        "hostname": "10.10.10.10"
+    }, {
+        "name": "vulnerability 003",
+        "severity": "Medium",
+        "category": "Information exposure",
+        "description": "The system appears to be exposing non-personally identifiable information about its users.",
+        "recommendation": "Configure the system to stop showing the sensitive information, or configure proper authentication and authorization controls are in place for accessing the sensitive information.",
+        "discovered_on":"2021-04-01",
+        "last_seen": "2021-04-02",
+        "hostname": "10.10.10.10"
+    }, {
+        "name": "vulnerability 004",
+        "severity": "Low",
+        "category": "Information exposure",
+        "description": "An information exposure vulnerability exists on the remote system, the scanner detected NGINX v2.0.1 running on the host.",
+        "recommendation": "Configure the system to remove the HTTP header: `Server` from all responses.",
+        "discovered_on": "2021-04-01",
+        "last_seen": "2021-04-02",
+        "hostname": "10.10.10.10"
+    }, {
+        "name": "vulnerability 005",
+        "severity": "High",
+        "category": "SSH Server Vulnerability",
+        "description": "The vulnerability was detected in the remote SSH server",
+        "recommendation": "Apply security update 2021-04-01 to all affected systems.",
+        "discovered_on": "2021-04-01",
+        "last_seen": "2021-04-02",
+        "hostname": "10.10.10.11"
+    }],
+    "item_totals": {
+        "critical": 0, // include total # of items with "critical" severity
+        "high": 0, // include total # of items with "high" severity
+        "medium": 0, // include total # of items with "medium" severity
+        "low": 0, // include total # of items with "low" severity
+        "informational": 0 // include total # of items with "informational" severity
+    }
+}
